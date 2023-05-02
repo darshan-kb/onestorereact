@@ -2,8 +2,6 @@
 function Product({products, title}){
     return(
         <div className="product-list">
-            <h2>Products</h2>
-            <br></br>
             <h2>{title}</h2>
             {products.map((product)=>(
                 <div className="product-preview"  key={product.product_ID}>
